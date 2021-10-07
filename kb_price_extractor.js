@@ -28,6 +28,5 @@ function extract_product_data() {
       extracted_data += product_name + "|" + product_vol + "|" + product_alco + "|" + product_price + "\n"
     }
   }
-  console.log(extracted_data)
   return extracted_data
 }
